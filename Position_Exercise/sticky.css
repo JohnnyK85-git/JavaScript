@@ -1,0 +1,25 @@
+body {
+    margin-bottom: 2000px;
+}
+
+div dl dt {
+    border: 1px solid grey;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    font-size: x-large;
+    position: sticky;
+    top: 0px;
+}
+
+div dl dd {
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 2px;
+    padding: 5px 0px;
+}
+
+div dl dd:last-child {
+    border: none;
+}

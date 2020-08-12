@@ -1,0 +1,24 @@
+div:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.class1:hover {
+    background-color: chartreuse;
+    color: red;
+    font-weight: bold;
+
+}
+
+.class1 p:nth-child(2):hover {
+    background-color: rgb(196, 93, 93);
+}
+
+.class2:hover {
+    background-color: aqua;
+}
+
+#id2:hover {
+    font-weight: bold;
+    font-size: xx-large;
+}

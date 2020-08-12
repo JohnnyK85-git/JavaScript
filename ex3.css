@@ -1,0 +1,16 @@
+li:hover {
+    background-color: aquamarine;
+}
+
+li:nth-child(even) {
+    font-size: 4ex;
+    font-weight: 500;
+}
+
+li:nth-last-child(4) {
+    background-color: red;
+}
+
+li:empty {
+    background-color: grey;
+}
